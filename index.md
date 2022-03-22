@@ -4,9 +4,9 @@ In this part of the project I was tasked to construct a meme out of different im
 
 ## The Meme
 The meme I created was based of the 'A Fellow Man of Culture' meme template. I chose this for a few reason:
-1. The meme has a grid like structure which allows me to showcase certain `magick` functions such as `image_blank`, `image_read`, and `image_append`.
-2. It's realitively simple to make and a good first project using `R`
-3. It has a very clear and effective meaning which is easily identified.
+- The meme has a grid like structure which allows me to showcase certain `magick` functions such as `image_blank`, `image_read`, and `image_append`.
+- It's realitively simple to make and a good first project using `R`
+- It has a very clear and effective meaning which is easily identified.
 
 >*This meme originated as a reaction image on a website called [**4chan**](https://www.4channel.org/)
 >The reaction image was:
