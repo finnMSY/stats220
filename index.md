@@ -75,7 +75,7 @@ datasci_text <- image_blank(width=500, height=500, color="#000000") %>%
   
 ```
 
->This code combining the squares together:
+>This code combines the squares together:
 
 ```diff
 
