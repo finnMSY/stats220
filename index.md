@@ -52,6 +52,7 @@ image_write(meme, "Images/meme.png")
 ```
 ---
 >This code creates the meme image with this specific code creating the individual squares
+
 ```diff
 #image one
 normal_poobear <- image_read("https://i.kym-cdn.com/photos/images/original/001/474/942/012.gif") %>%
