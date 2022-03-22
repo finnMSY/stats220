@@ -21,31 +21,31 @@ I used the following code to create this meme:
 ```diff
 library(magick)
 
-#image one
+# image one
 normal_poobear <- image_read("https://i.kym-cdn.com/photos/images/original/001/474/942/012.gif") %>%
   image_scale("500x500!")
 
-#image two
+# image two
 cool_poobear <- image_read("https://en.meming.world/images/en/8/89/Tuxedo_Winnie_the_Pooh.jpg") %>%
   image_scale("500x500!")
 
-#word square one
+# word square one
 compsci_stats_text <- image_blank(width=500, height=500, color="#000000") %>%
   image_annotate(text="Studying\nStats and Compsci", color="#FFFFFF", size=50, font="serif", gravity="center")
 
-#word square two
+# word square two
 datasci_text <- image_blank(width=500, height=500, color="#000000") %>%
   image_annotate(text="Studying\nDatascience", color="#FFD700", size=50, font="Impact", gravity="center")
 
-#creating the first row
+# creating the first row
 first_row_vector <- c(normal_poobear, compsci_stats_text)
 first_row <- image_append(first_row_vector)
 
-#creating the second row
+# creating the second row
 second_row_vector <- c(cool_poobear, datasci_text)
 second_row <- image_append(second_row_vector)
 
-#creating the whole meme
+# creating the whole meme
 meme_vector <- c(first_row, second_row)
 meme <- image_append(meme_vector, stack=TRUE)
 image_write(meme, "Images/meme.png")
@@ -54,19 +54,19 @@ image_write(meme, "Images/meme.png")
 >This code creates the meme image with this specific code creating the individual squares
 
 ```diff
-#image one
+# image one
 normal_poobear <- image_read("https://i.kym-cdn.com/photos/images/original/001/474/942/012.gif") %>%
   image_scale("500x500!")
 
-#image two
+# image two
 cool_poobear <- image_read("https://en.meming.world/images/en/8/89/Tuxedo_Winnie_the_Pooh.jpg") %>%
   image_scale("500x500!")
 
-#word square one
+# word square one
 compsci_stats_text <- image_blank(width=500, height=500, color="#000000") %>%
   image_annotate(text="Studying\nStats and Compsci", color="#FFFFFF", size=50, font="serif", gravity="center")
 
-#word square two
+# word square two
 datasci_text <- image_blank(width=500, height=500, color="#000000") %>%
   image_annotate(text="Studying\nDatascience", color="#FFD700", size=50, font="Impact", gravity="center")
 ```
@@ -74,15 +74,15 @@ datasci_text <- image_blank(width=500, height=500, color="#000000") %>%
 >This code combining the squares together:
 
 ```diff
-#creating the first row
+# creating the first row
 first_row_vector <- c(normal_poobear, compsci_stats_text)
 first_row <- image_append(first_row_vector)
 
-#creating the second row
+# creating the second row
 second_row_vector <- c(cool_poobear, datasci_text)
 second_row <- image_append(second_row_vector)
 
-#creating the whole meme
+# creating the whole meme
 meme_vector <- c(first_row, second_row)
 meme <- image_append(meme_vector, stack=TRUE)
 image_write(meme, "Images/meme.png")
