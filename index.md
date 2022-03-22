@@ -3,7 +3,7 @@
 In this part of the project I was tasked to construct a meme out of different images using the `R` programming language and a function of `R` called `magick`.
 
 ## The Meme
-The meme I created was based of the 'A Fellow Man of Culture' meme template. I chose this for a few reason:
+The meme I created was based of the ***'A Fellow Man of Culture'*** meme template. I chose this for a few reason:
 - The meme has a grid like structure which allows me to showcase certain `magick` functions such as `image_blank`, `image_read`, and `image_append`.
 - It's realitively simple to make and a good first project using `R`
 - It has a very clear and effective meaning which is easily identified.
