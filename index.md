@@ -12,6 +12,8 @@ The meme I created was based of the 'A Fellow Man of Culture' meme template. I c
 >The reaction image was:
 ![Tuxedo Winnie the Pooh](https://i.kym-cdn.com/entries/icons/original/000/029/060/cover3.jpg)*
 
+This meme I have created is an orginal adaptation of meme format because while I have used the template, the text in the right boxesd are different and unique making it an original meme.
+
 ### Here is the created meme:
 
 ![An 'A Fellow Man of Culture' meme with the text 'studying compsci and stats in the first column', and 'studying datascience' in the second](meme.png)
